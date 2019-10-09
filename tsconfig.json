@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "baseUrl": ".",
+    "paths": {
+      "@Models/*": ["api/models/*"],
+      "@Services/*": ["api/services/*"]
+    }
+  }
+}

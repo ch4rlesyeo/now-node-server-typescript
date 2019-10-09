@@ -1,0 +1,13 @@
+{
+  "name": "gocast-server",
+  "version": "0.0.1",
+  "scripts": {
+    "deploy": "now --prod"
+  },
+  "dependencies": {
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@now/node": "^1.0.1"
+  }
+}
